@@ -4,7 +4,7 @@ System.setProperty("webdriver.chrome.driver", "./driver/chromedriver.exe");
 	
 
 	
-	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 	
 	driver.get("https://demo.actitime.com/login.do");
 	
